@@ -1,10 +1,5 @@
-people = [{'name': 'bob', 'age': 20}, 
-          {'name': 'carry', 'age': 38},
-          {'name': 'john', 'age': 7},
-          {'name': 'smith', 'age': 17},
-          {'name': 'ben', 'age': 27}]
+my_email = "wook2124@naver.com"
 
+result = my_email.split("@")[1].split(".")[0]
 
-for person in people:
-    if person['age'] >= 20:
-        print(person['name'])
+print(result)
