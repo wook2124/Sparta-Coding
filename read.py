@@ -1,13 +1,11 @@
+from wordcloud import WordCloud
+
 text = ''
 
-with open("test.txt", "r", encoding="utf-8") as f:
+with open("KaKaoTalk.txt", "r", encoding="utf-8") as f:
     lines = f.readlines()
     for line in lines:
         text += line
-
-print(text)
-
-from wordcloud import WordCloud
 
 wc = WordCloud(font_path='C:/Users/wook2/AppData/Local/Microsoft/Windows/Fonts/NanumBarunGothicBold.ttf', background_color="white", width=600, height=400)
 wc.generate(text)
