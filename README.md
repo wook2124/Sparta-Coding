@@ -11,10 +11,10 @@
 
 ## Demo Picture
 
-![](Day 1_result.png)  
+![](Day1_result.png)  
 
-![](Day 2_result.png)  
+![](Day2_result.png)  
 
-![](Day 3_result.png)  
+![](Day3_result.png)  
 
-![](Day 2_result_masked.png)  
+![](Day3_result_masked.png)  
