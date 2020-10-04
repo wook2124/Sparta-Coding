@@ -8,3 +8,13 @@
 ## Link
 
 - [Sparta Coding](https://spartacodingclub.kr/)
+
+## Demo Picture
+
+![](Day1_result.png)  
+
+![](Day2_result.png)  
+
+![](Day3_result.png)  
+
+![](Day3_result_masked.png)  
