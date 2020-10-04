@@ -11,14 +11,17 @@
 
 ## Demo Picture
 
-- Day 1  
+- `Day 1`  
 ![](Day1_result.png)  
 
-- Day 2  
+
+- `Day 2`  
 ![](Day2_result.png)  
 
-- Day 3  
+
+- `Day 3 - A`  
 ![](Day3_result.png)  
 
-- Day 3  
+
+- `Day 3 - B`  
 ![](Day3_result_masked.png)  
