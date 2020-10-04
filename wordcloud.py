@@ -11,7 +11,7 @@ wc = WordCloud(font_path='C:/Users/wook2/AppData/Local/Microsoft/Windows/Fonts/N
 wc.generate(text)
 wc.to_file("result.png")
 
-# # 폰트 위치 알아내기
+# # 폰트가 저장된 위치 확인하기
 # import matplotlib.font_manager as fm
 
 # # 이용 가능한 폰트 중 '고딕'만 선별
