@@ -22,3 +22,20 @@ body {
     color: white;
     text-align: center;
 }
+
+.letter-close{
+    display: none;
+}
+
+.rtan{
+    background-color: white;
+
+    width: 200px;
+    height: 200px;
+
+    background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/rtan.gif');
+    background-size: cover;
+    background-position: center;
+
+    margin: 100px auto 0 auto; /* 시계방향 */
+}
