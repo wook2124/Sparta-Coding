@@ -4,6 +4,6 @@ function open_letter() {
 }
 
 function go_rtan() {
-    alert('앗, 어떻게 찾았지!')
+    alert('앗, 어떻게 찾았어요?!')
     window.location.href='https://blog.naver.com/wook2124'
 }
