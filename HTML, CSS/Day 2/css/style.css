@@ -43,3 +43,29 @@ body {
     border: 5px solid white;
     box-shadow: 0px 0px 20px 3px white;
 }
+
+h1{
+    color: white;
+    text-align: center;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.messagebox{
+    background-color: ivory;
+    width: 400px; /* height는 글 길이의 맞춰서 알아서 들어감 */
+    margin: auto;
+    padding: 30px;
+    
+    color: brown;
+    font-size: 20px;
+    line-height: 30px;
+
+    box-shadow: 0px 0px 10px 3px white;
+}
+
+.from{
+    text-align: right;
+    margin-bottom: 0px;
+}
