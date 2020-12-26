@@ -3,8 +3,13 @@ body {
 }
 
 .envelope {
-    background-color: green;
-
     width: 200px;
     height: 200px;
+
+    background-image: url('https://pngimg.com/uploads/envelope/envelope_PNG18366.png');
+    background-size: cover;
+    background-position: center;
+
+    margin: 200px auto 0 auto; /* 시계방향 */
+
 }
