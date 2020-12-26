@@ -1,17 +1,20 @@
 @media screen and (max-width: 760px) {
-    .messagebox{
+    .messagebox {
         width: 300px;
         padding: 20px;
     }
-    .rtan{
+
+    .rtan {
         width: 150px;
         height: 150px;
         margin: 70px auto 0px auto;
     }
-    h1{
+
+    h1 {
         font-size: 28px;
     }
-    .envelope{
+
+    .envelope {
         margin: 150px auto 0px auto;
     }
 }
@@ -32,42 +35,44 @@ body {
     background-size: cover;
     background-position: center;
 
-    margin: 200px auto 0 auto; /* 시계방향 */
+    margin: 200px auto 0 auto;
+    /* 시계방향 */
 
     cursor: pointer;
 }
 
-.envelope-msg{
+.envelope-msg {
     color: white;
     text-align: center;
 }
 
-.letter-close{
+.letter-close {
     display: block;
 }
 
-.letter-open{
+.letter-open {
     display: none;
 }
 
-.rtan{
+.rtan {
     background-color: white;
 
     width: 200px;
     height: 200px;
 
-    background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/rtan.gif');
+    background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/Webp.net-gifmaker+(1).gif');
     background-size: cover;
     background-position: center;
 
-    margin: 100px auto 0 auto; /* 시계방향 */
+    margin: 100px auto 0 auto;
+    /* 시계방향 */
 
     border-radius: 100px;
     border: 5px solid white;
     box-shadow: 0px 0px 20px 3px white;
 }
 
-h1{
+h1 {
     color: white;
     text-align: center;
 
@@ -75,12 +80,13 @@ h1{
     margin-bottom: 30px;
 }
 
-.messagebox{
+.messagebox {
     background-color: ivory;
-    width: 400px; /* height는 글 길이의 맞춰서 알아서 들어감 */
+    width: 400px;
+    /* height는 글 길이의 맞춰서 알아서 들어감 */
     margin: auto;
     padding: 30px;
-    
+
     color: brown;
     font-size: 20px;
     line-height: 30px;
@@ -88,7 +94,7 @@ h1{
     box-shadow: 0px 0px 10px 3px white;
 }
 
-.from{
+.from {
     text-align: right;
     margin-bottom: 0px;
 }
