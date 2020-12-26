@@ -10,7 +10,7 @@
 - [Sparta Coding](https://spartacodingclub.kr/)
 
 ### Day 1  
-![](Day1_result.png)  
+![](파이썬 뽀개기/Day1/Day1_result.png)  
 
 ### Day 2
 ![](Day2_result.png)  
