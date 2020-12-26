@@ -1,3 +1,7 @@
+* {
+    font-family: 'Poor Story', cursive;
+}
+
 body {
     background-color: #9b070f;
 }
@@ -12,4 +16,9 @@ body {
 
     margin: 200px auto 0 auto; /* 시계방향 */
 
+}
+
+.envelope-msg{
+    color: white;
+    text-align: center;
 }
