@@ -23,3 +23,14 @@
     width: 300px;
     margin: auto;
 }
+
+.mybtn {
+    background-color: brown;
+
+    width: 300px;
+    height: 50px;
+
+    color: white;
+
+    border-radius: 10px;
+}
