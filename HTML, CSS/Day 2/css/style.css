@@ -1,0 +1,10 @@
+body {
+    background-color: #9b070f;
+}
+
+.envelope {
+    background-color: green;
+
+    width: 200px;
+    height: 200px;
+}
