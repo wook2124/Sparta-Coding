@@ -1,12 +1,12 @@
 # Sparta-Coding  
 
-- Python
+[Python]
 - Day 0: Review the `Basics`  
 - Day 1: `Crawling` Data  
 - Day 2: Saving as `Excel`  
 - Day 3: Creating `Word Cloud`  
 
-- HTML, CSS, JavaScript  
+[HTML, CSS, JavaScript]
 - Day 1: Create `HTML` & `CSS`  
 - Day 2: Merry Christmas with `JavaScript`  
 
