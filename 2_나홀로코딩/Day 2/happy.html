@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @media screen and (max-width: 760px) {
+        .messagebox {
+          width: 300px;
+          padding: 20px;
+        }
+
+        .rtan {
+          width: 150px;
+          height: 150px;
+          margin: 70px auto 0px auto;
+        }
+
+        h1 {
+          font-size: 28px;
+        }
+
+        .envelope {
+          margin: 150px auto 0px auto;
+        }
+      }
+
+      * {
+        font-family: "Poor Story", cursive;
+      }
+
+      body {
+        background-color: #9b070f;
+      }
+
+      .envelope {
+        width: 200px;
+        height: 200px;
+
+        background-image: url("https://pngimg.com/uploads/envelope/envelope_PNG18366.png");
+        background-size: cover;
+        background-position: center;
+
+        margin: 200px auto 0 auto;
+        /* 시계방향 */
+
+        cursor: pointer;
+      }
+
+      .envelope-msg {
+        color: white;
+        text-align: center;
+      }
+
+      .letter-close {
+        display: block;
+      }
+
+      .letter-open {
+        display: none;
+      }
+
+      .rtan {
+        background-color: white;
+
+        width: 200px;
+        height: 200px;
+
+        background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/Webp.net-gifmaker+(1).gif");
+        background-size: cover;
+        background-position: center;
+
+        margin: 100px auto 0 auto;
+        /* 시계방향 */
+
+        border-radius: 100px;
+        border: 5px solid white;
+        box-shadow: 0px 0px 20px 3px white;
+      }
+
+      h1 {
+        color: white;
+        text-align: center;
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+      .messagebox {
+        background-color: ivory;
+        width: 400px;
+        /* height는 글 길이의 맞춰서 알아서 들어감 */
+        margin: auto;
+        padding: 30px;
+
+        color: brown;
+        font-size: 20px;
+        line-height: 30px;
+
+        box-shadow: 0px 0px 10px 3px white;
+      }
+
+      .from {
+        text-align: right;
+        margin-bottom: 0px;
+      }
+    </style>
+    <script>
+      function open_letter() {
+        document.getElementsByClassName("letter-close")[0].style.display =
+          "none";
+        document.getElementsByClassName("letter-open")[0].style.display =
+          "block";
+      }
+
+      function go_rtan() {
+        alert("앗, 어떻게 찾았어요?!");
+        window.location.href = "https://blog.naver.com/wook2124";
+      }
+    </script>
+    <title>2020년을 마무리하며</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn2.iconfinder.com/data/icons/christmas-46/64/christmas-icon-tree-512.png"
+    />
+    <meta
+      property="og:image"
+      content="https://img.freepik.com/free-vector/fireworks-new-year-2021_52683-49701.jpg?size=626&ext=jpg"
+    />
+    <meta property="og:title" content="함께공부해요의 새해카드" />
+    <meta property="og:description" content="2020을 마무리하며" />
+  </head>
+  <body>
+    <div class="letter-close">
+      <div class="envelope" onclick="open_letter()"></div>
+      <h2 class="envelope-msg">봉투를 열어봐요!</h2>
+    </div>
+
+    <div class="letter-open">
+      <div class="rtan" onclick="go_rtan()"></div>
+      <h1>2020년, 다들 수고 많았어요</h1>
+      <div class="messagebox">
+        올해 이런저런 일이 많았네요😂 <br />
+        연말에 지인들과 함께하지 못한다는 것은 아쉽지만 <br />
+        건강해야 오래오래 볼 수 있으니까요😁 <br />
+        올해는 따뜻한 집에서 가족들과 함께 시간을 보내고 <br />
+        새해에는 행복한 일만 가득했으면 좋겠습니다🙏🏻 <br />
+        <p class="from">2020.12.27 함께공부해요</p>
+      </div>
+    </div>
+  </body>
+</html>
